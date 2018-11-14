@@ -1,0 +1,13 @@
+{
+    "author": "Your Name",
+    "email": "yname@gmail.com",
+    "project_name_full": "Module Name",
+    "project_name": "{{ cookiecutter.project_name_full.lower().replace(' ', '_') }}",
+    "project_short_description": "Cpp Module. Compile with CMake",
+    "version": "0.5",
+    "cmake_version": "3.0",
+    "module_type": [ "bin", "lib" ],
+    "class_name": "{{cookiecutter.project_name|title}}",
+    "class_filename": "{{cookiecutter.project_name|lower}}",
+    "class_define": "{{cookiecutter.project_name|upper}}"
+}
